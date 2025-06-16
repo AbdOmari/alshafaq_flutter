@@ -1,0 +1,1 @@
+enum PackageType { single, saving }

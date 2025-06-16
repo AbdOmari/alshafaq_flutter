@@ -1,0 +1,573 @@
+{
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "user  name"
+  },
+  "first_name": "First Name",
+  "@first_name": {
+    "description": "user first name"
+  },
+  "last_name": "Last Name",
+  "@last_name": {
+    "description": "user last name"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "user email"
+  },
+  "phone_number": "Phone",
+  "@phone_number": {
+    "description": "user phone number"
+  },
+  "password": "password",
+  "@password": {
+    "description": "user email password"
+  },
+  "confirm_password": "confirm password",
+  "@confirm_password": {
+    "description": "user confirm password"
+  },
+  "canNotEmpty": "{parameter} can not be empty",
+  "@canNotEmpty": {
+    "description": "validate that parameter not empty",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "name"
+      }
+    }
+  },
+  "unValid": "{parameter} entered is not valid",
+  "@unValid": {
+    "description": "validate that parameter is valid",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "name"
+      }
+    }
+  },
+  "notMatched": "the two {parameter}s not matched",
+  "@notMatched": {
+    "description": "validate that parameter is matched another one",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "password"
+      }
+    }
+  },
+  "isTooShort": "password must be at least 8 chars",
+  "@isTooShort": {
+    "description": "validate password length"
+  },
+  "pass_not_valid": "password must contains letters numbers symbols",
+  "@pass_not_valid": {
+    "description": "validate password length"
+  },
+  "register": "Register",
+  "@register": {
+    "description": "register to the app"
+  },
+  "create": "Create {parameter}",
+  "@create": {
+    "description": "create word",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "create email"
+      }
+    }
+  },
+  "logIn": "Log In",
+  "@logIn": {
+    "description": "log in to the app"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "home nav bar item"
+  },
+  "requests": "Requests",
+  "@requests": {
+    "description": "requests nav bar item"
+  },
+  "subscriptions": "Subscriptions",
+  "@subscriptions": {
+    "description": "requests nav bar item"
+  },
+  "chats": "Chats",
+  "@chats": {
+    "description": "requests nav bar item"
+  },
+  "more": "More",
+  "@more": {
+    "description": "requests nav bar item"
+  },
+  "hasAccount": "Already have Account?",
+  "@hasAccount": {
+    "description": "if use has an account he can log in"
+  },
+  "hasNoAccount": "Don't Have An Account?",
+  "@hasNoAccount": {
+    "description": "if use doesn't have an account he can create one"
+  },
+  "account": "account",
+  "@account": {
+    "description": "if use doesn't have an account he can create one"
+  },
+  "someError": "Something went wrong",
+  "@someError": {
+    "description": "when some error happened"
+  },
+  "expenses": "Expenses",
+  "@expenses": {
+    "description": "expense app bar title"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "notifications app bar title"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "profile app bar title"
+  },
+  "statistics": "Statistics",
+  "@statistics": {
+    "description": "statistics app bar title"
+  },
+  "balance": "Balance",
+  "@balance": {
+    "description": "user balance"
+  },
+  "categories": "Categories",
+  "@categories": {
+    "description": "categories word"
+  },
+  "expensePer": "Show Expense Per",
+  "@expensePer": {
+    "description": "Show Expense Per option in statistics screen option can be monthly or yearly"
+  },
+  "weekly": "Weekly",
+  "@weekly": {
+    "description": "Weekly word"
+  },
+  "yearly": "Yearly",
+  "@yearly": {
+    "description": "Yearly word"
+  },
+  "changePassword": "Change Password",
+  "@changePassword": {
+    "description": "change password sentence"
+  },
+  "oldPassword": "Old Password",
+  "@oldPassword": {
+    "description": "old password word"
+  },
+  "newPassword": "New Password",
+  "@newPassword": {
+    "description": "new password word"
+  },
+  "confirmNewPassword": "Confirm New Password",
+  "@confirmNewPassword": {
+    "description": "confirm new password word"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "language word"
+  },
+  "about": "about",
+  "@about": {
+    "description": "about word"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "privacy Policy word"
+  },
+  "personalInfo": "Personal Information",
+  "@personalInfo": {
+    "description": "Personal Information"
+  },
+  "update": "Update",
+  "@update": {
+    "description": "update word"
+  },
+  "deleteAccount": "Delete Account",
+  "@deleteAccount": {
+    "description": "delete account word"
+  },
+  "passwordRequired": "Enter your password to confirm",
+  "@passwordRequired": {
+    "description": "need user to enter his password to continue word"
+  },
+  "changeEmail": "Change Email",
+  "@changeEmail": {
+    "description": "ask user to change his email"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "edit word"
+  },
+  "cancel": "cancel",
+  "@cancel": {
+    "description": "cancel word"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "save word"
+  },
+  "failure": "Failure",
+  "@failure": {
+    "description": "failure word"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "success word"
+  },
+  "ok": "Ok",
+  "@ok": {
+    "description": "ok word"
+  },
+  "referCode": "Refer Code",
+  "@referCode": {
+    "description": "refer code word"
+  },
+  "continueWord": "continue",
+  "@continueWord": {
+    "description": "continue word"
+  },
+  "selectWord": "select",
+  "@selectWord": {
+    "description": "select word"
+  },
+  "loginToAccount": "Login to your account!",
+  "@loginToAccount": {
+    "description": "tell user he is login to account word"
+  },
+  "pleaseProvideYourInformation": "Please, provide your information",
+  "@pleaseProvideYourInformation": {
+    "description": "provideInfo word"
+  },
+  "rememberMe": "Remember Me",
+  "@rememberMe": {
+    "description": "provideInfo word"
+  },
+  "signUpHere": "Sign Up Here",
+  "@signUpHere": {
+    "description": "provideInfo word"
+  },
+  "signInHere": "Sign In Here",
+  "@signInHere": {
+    "description": "provideInfo word"
+  },
+  "signUp": "Sign Up",
+  "@signUp": {
+    "description": "provideInfo word"
+  },
+  "sendOtp": "Send OTP",
+  "@sendOtp": {
+    "description": "send OTP word"
+  },
+  "areYouReadyToMakeANewAccount": "Are you ready to make a new account, Let’s go",
+  "@areYouReadyToMakeANewAccount": {
+    "description": "welcome message for new users"
+  },
+  "createNewAccount": "Create new \naccount!",
+  "@createNewAccount": {
+    "description": "create new account message for new users"
+  },
+  "acceptAllThe": "Accept All the",
+  "@acceptAllThe": {
+    "description": "accept all the word"
+  },
+  "termsAndConditions": "Terms & Conditions",
+  "@termsAndConditions": {
+    "description": "terms and conditions word"
+  },
+  "optional": "Optional",
+  "@optional": {
+    "description": "optional word"
+  },
+  "congrats": "Congratulation!!!",
+  "@congrats": {
+    "description": "congratulation message for new users"
+  },
+  "welcome": "welcome",
+  "@welcome": {
+    "description": "welcome message for new users"
+  },
+  "alreadyHaveAnAccount": "Already Have An Account?",
+  "@alreadyHaveAnAccount": {
+    "description": "if user has an account he can log in"
+  },
+  "writeYourOtp": "Write your OTP \n Code",
+  "@writeYourOtp": {
+    "description": "ask user to write his OTP code"
+  },
+  "enterFourDigits": "Enter The 4-Digit Code Sent To You At",
+  "@enterFourDigits": {
+    "description": "ask user to enter the four digits code"
+  },
+  "haveNotReceivedCode": "I Haven’t received a code",
+  "@haveNotReceivedCode": {
+    "description": "message for user who didn't receive the code"
+  },
+  "chooseOurService": "Choose Our Service",
+  "@chooseOurService": {
+    "description": "message for user who didn't receive the code"
+  },
+  "homeService": "Home Service",
+  "@homeService": {
+    "description": "message for user who didn't receive the code"
+  },
+  "branch": "Branch",
+  "@branch": {
+    "description": "message for user who didn't receive the code"
+  },
+  "coporateFleet": "Corporate Fleet",
+  "@coporateFleet": {
+    "description": "message for user who didn't receive the code"
+  },
+  "bookASingleWash": "Book A Single Wash",
+  "@bookASingleWash": {
+    "description": "message for user who didn't receive the code"
+  },
+  "savingPackages": "Saving Packages",
+  "@savingPackages": {
+    "description": "message for user who didn't receive the code"
+  },
+  "popularPackage": "Popular Package",
+  "@popularPackage": {
+    "description": "message for user who didn't receive the code"
+  },
+  "allPackages": "All Packages",
+  "@allPackages": {
+    "description": "message for user who didn't receive the code"
+  },
+  "userWallet": "My Wallet",
+  "@userWallet": {
+    "description": "user wallet word"
+  },
+  "userCars": "My Cars",
+  "@userCars": {
+    "description": "user cars word"
+  },
+  "locations": "Locations",
+  "@locations": {
+    "description": "locations word"
+  },
+  "gifts": "Gifts",
+  "@gifts": {
+    "description": "gifts word"
+  },
+  "contactUs": "Contact Us",
+  "@contactUs": {
+    "description": "gifts word"
+  },
+  "aboutUs": "About Us",
+  "@aboutUs": {
+    "description": "gifts word"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "gifts word"
+  },
+  "number": "number",
+  "@number": {
+    "description": "gifts word"
+  },
+  "platNumber": "Plat Number",
+  "@platNumber": {
+    "description": "gifts word"
+  },
+  "selectCarType": "Select Car Type",
+  "@selectCarType": {
+    "description": "gifts word"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "gifts word"
+  },
+  "yourRequestSentSuccessfully": "Your request sent successfully",
+  "@yourRequestSentSuccessfully": {
+    "description": "gifts word"
+  },
+  "addNewCar": "Add New Car",
+  "@addNewCar": {
+    "description": "gifts word"
+  },
+  "addRequest": "Add Request",
+  "@addRequest": {
+    "description": "gifts word"
+  },
+  "carWashingService": "Car Washing Service",
+  "@carWashingService": {
+    "description": "gifts word"
+  },
+  "pickTime": "Pick Time",
+  "@pickTime": {
+    "description": "pick time word"
+  },
+  "currentLocation": "Current Location",
+  "@currentLocation": {
+    "description": "pick time word"
+  },
+  "extras": "Extras",
+  "@extras": {
+    "description": "pick time word"
+  },
+  "services": "Services",
+  "@services": {
+    "description": "pick time word"
+  },
+  "requestSummary": "Request Summary",
+  "@requestSummary": {
+    "description": "pick time word"
+  },
+  "appointment": "Appointment",
+  "@appointment": {
+    "description": "pick time word"
+  },
+  "date": "Date",
+  "@date": {
+    "description": "pick time word"
+  },
+  "time": "Time",
+  "@time": {
+    "description": "pick time word"
+  },
+  "total": "Total",
+  "@total": {
+    "description": "pick time word"
+  },
+  "selectLocation": "Please, select a location",
+  "@selectLocation": {
+    "description": "pick time word"
+  },
+  "selectDate": "Please, select a date",
+  "@selectDate": {
+    "description": "pick time word"
+  },
+  "days": "Days",
+  "@days": {
+    "description": "days word"
+  },
+  "hours": "Hours",
+  "@hours": {
+    "description": "days word"
+  },
+  "selectTime": "Please, select a time",
+  "@selectTime": {
+    "description": "pick time word"
+  },
+  "my": "My {parameter}",
+  "@my": {
+    "description": "validate that parameter not empty",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "name"
+      }
+    }
+  },
+  "add": "Add {parameter}",
+  "@add": {
+    "description": "validate that parameter not empty",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "name"
+      }
+    }
+  },
+  "noContent": "No {parameter} For Now",
+  "@noContent": {
+    "description": "validate that parameter not empty",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "name"
+      }
+    }
+  },
+  "pleaseSelect": "Please Select {parameter}",
+  "@pleaseSelect": {
+    "description": "validate that parameter not empty",
+    "placeholders": {
+      "parameter": {
+        "type": "String",
+        "example": "name"
+      }
+    }
+  },
+  "content": "Content",
+  "@content": {
+    "description": "content word"
+  },
+  "packages": "Packages",
+  "@packages": {
+    "description": "packages word"
+  },
+  "perOneWash": "Per One Wash",
+  "@perOneWash": {
+    "description": "per one wash "
+  },
+  "washes": "Washes",
+  "@washes": {
+    "description": "washes word"
+  },
+  "special": "Special",
+  "@special": {
+    "description": "washes word"
+  },
+  "city": "City",
+  "@city": {
+    "description": "City word"
+  },
+  "selectYouCarImage": "Select Your Car Image",
+  "@selectYouCarImage": {
+    "description": "City word"
+  },
+  "color": "Color",
+  "@color": {
+    "description": "City word"
+  },
+  "carAddedSuccessfully": "Car Added Successfully",
+  "@carAddedSuccessfully": {
+    "description": "City word"
+  },
+  "locationAddedSuccessfully": "Location Added Successfully",
+  "@locationAddedSuccessfully": {
+    "description": "City word"
+  },
+  "reLoad": "Re-Load",
+  "@reLoad": {
+    "description": "City word"
+  },
+  "newLocation": "New Location",
+  "@newLocation": {
+    "description": "City word"
+  },
+  "zones": "Zones",
+  "@zones": {
+    "description": "City word"
+  },
+  "zone": "Zone",
+  "@zone": {
+    "description": "City word"
+  },
+  "location": "Location",
+  "@location": {
+    "description": "City word"
+  },
+  "selectedLocation": "Selected Location:",
+  "@selectedLocation": {
+    "description": "Selected location word"
+  }
+}
+
+
+

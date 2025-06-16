@@ -1,0 +1,30 @@
+final class JsonKeys {
+  static const data = 'data';
+  static const items = 'items';
+  static const id = 'id';
+  static const image = 'image';
+  static const userId = 'userId';
+  static const accessToken = 'token';
+  static const accessTokenType = 'token_type';
+  static const refreshToken = 'refresh_token';
+  static const user = 'user';
+  static const message = 'message';
+  static const errors = 'errors';
+  static const error = 'error';
+  static const phone = 'phone';
+  static const orderExtras = 'product';
+  static const orderService = 'service';
+  static const otp = 'otp';
+  static const email = 'email';
+  static const success = 'success';
+  static const name = 'name';
+  static const referCode = 'referCode';
+  static const firstName = 'firstName';
+  static const lastName = 'lastName';
+  static const password = 'password';
+  static const passwordConfirmation = 'password_confirmation';
+  static const authorization = 'Authorization';
+  static const oldPassword = "oldPassword";
+  static const newPassword = "newPassword";
+  static const newPasswordConfirmation = "newPassword_confirmation";
+}
